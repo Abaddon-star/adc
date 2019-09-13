@@ -1,0 +1,47 @@
+    div.mes {
+  margin: 0 auto;
+  width: 250px;
+  position: relative;
+}
+
+div.mes:nth-child(odd) {
+  right: 50px;
+}
+
+div.mes:nth-child(even) {
+  left: 50px;
+}
+
+div.mes th,
+div.mes td,
+div.mes caption {
+  font: normal 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 6px 4px;
+}
+
+.tabla_mes {
+  border-spacing: 3px;
+  empty-cells: hide;
+}
+body{
+  background-image: url(img/angel-anime-girl-.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  overflow: scroll;
+  background-repeat: no-repeat;
+}
+div.mes td {
+  text-align: center;
+  border: 1px solid #44aaaa;
+  background-color: rgba(219, 10, 10, 0.68);
+}
+
+div.mes th {
+  color: rgb(255, 255, 255);
+}
+
+div.mes caption.titulo {
+  text-align: left;
+  font-size: 18px;
+  color: #c00;
+}
